@@ -1,0 +1,19 @@
+.tile {
+    padding:2em;
+    background-color: aquamarine;
+    justify-content: center;
+    display: inline-flex;
+    border-radius: 1em;
+    transform: translate(50%,50%);
+    border: 1px solid black;
+    font-size: large;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.back-button {
+    margin-top: 2%;
+}
