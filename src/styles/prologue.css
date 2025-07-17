@@ -4,10 +4,10 @@
     justify-content: center;
     display: inline-flex;
     border-radius: 1em;
-    transform: translate(50%,50%);
     border: 1px solid black;
     font-size: large;
     cursor: pointer;
+    margin: 0.5em;
 }
 
 .hidden {
@@ -16,4 +16,13 @@
 
 .back-button {
     margin-top: 2%;
+}
+
+.header {
+    justify-content: center;
+    display: flex;
+}
+
+.prologue {
+    margin: 2em;
 }

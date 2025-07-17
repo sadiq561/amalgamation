@@ -1,0 +1,16 @@
+.FolderStr {
+    font-size: larger;
+    .folder {
+        font-weight: bold;
+        cursor: pointer;
+        .file {
+            font-style: italic;
+            font-weight: lighter;
+        }
+    }
+    
+}
+
+.hidden {
+    display: none;
+}
