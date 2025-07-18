@@ -1,13 +1,15 @@
 .tile {
     padding:2em;
-    background-color: aquamarine;
+    background-color:cadetblue;
     justify-content: center;
     display: inline-flex;
     border-radius: 1em;
     border: 1px solid black;
-    font-size: large;
+    font-size:large;
     cursor: pointer;
     margin: 0.5em;
+    color: white;
+    width: 8em;
 }
 
 .hidden {

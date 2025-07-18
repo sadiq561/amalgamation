@@ -1,0 +1,19 @@
+.otp-input {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 40px;
+    margin: 2px;
+    padding: 5px;
+}
+
+.otp-validation {
+    margin-left: 40em;
+}
+
+.otp-submit-button {
+    background-color:blue;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}

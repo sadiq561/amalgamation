@@ -3,11 +3,13 @@ import { useState } from 'react';
 import ImageViewer from './ImageViewer';
 import FolderStructure from './FolderStructure';
 import ProgressBar from './ProgressBar';
+import ValidateOTP from './ValidateOTP';
 import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 
 const items = [{name:"Image Viewer", id:"ImgViewer",component:<ImageViewer />},
     {name:"Folder Structure", id:"FolderStr",component:<FolderStructure />},
-    {name:"Progress Bar", id:"ProgressBar",component:<ProgressBar />}];
+    {name:"Progress Bar", id:"ProgressBar",component:<ProgressBar />},
+    {name:"Validate OTP", id:"ValidateOTP", component:<ValidateOTP />}];
 
 const Prologue = function () {
     const [module, setModule] = useState('prologue');
