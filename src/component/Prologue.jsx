@@ -5,11 +5,13 @@ import FolderStructure from './FolderStructure';
 import ProgressBar from './ProgressBar';
 import ValidateOTP from './ValidateOTP';
 import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
+import Pagination from './pagination/Pagination';
 
 const items = [{name:"Image Viewer", id:"ImgViewer",component:<ImageViewer />},
     {name:"Folder Structure", id:"FolderStr",component:<FolderStructure />},
     {name:"Progress Bar", id:"ProgressBar",component:<ProgressBar />},
-    {name:"Validate OTP", id:"ValidateOTP", component:<ValidateOTP />}];
+    {name:"Validate OTP", id:"ValidateOTP", component:<ValidateOTP />},
+    {name:"Pagination", id:"Pagination", component:<Pagination />}];
 
 const Prologue = function () {
     const [module, setModule] = useState('prologue');
